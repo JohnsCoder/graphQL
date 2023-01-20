@@ -1,4 +1,5 @@
 import { UserResolver } from "./UserResolver";
+import { Args } from "../../models/CreateUser";
 import crypt from "crypto";
 
 const user = new UserResolver();
